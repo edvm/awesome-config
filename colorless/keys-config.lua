@@ -303,6 +303,14 @@ function hotkeys:init(args)
 	--------------------------------------------------------------------------------
 	self.raw.root = {
 		{
+			{ env.mod, "Control" }, "j", function () awful.screen.focus_relative(1) end,
+			{ description = "View next screen", group = "Screen navigation" }
+		},
+		{
+			{ env.mod, "Control" }, "k", function () awful.screen.focus_relative(-1) end,
+			{ description = "View previous screen", group = "Screen navigation" }
+		},
+		{
 			{ env.mod }, "F1", function() redtip:show() end,
 			{ description = "Show hotkeys helper", group = "Main" }
 		},
