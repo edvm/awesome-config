@@ -54,7 +54,7 @@ Main code base can be found in `redflat` submodule.
 Copy scripts to WM setting folder. 
 Simple way to do so with `git`
 ```shell
-$ git clone https://github.com/worron/awesome-config.git ~/.config/awesome --recursive
+$ git clone https://github.com/edvm/awesome-config.git ~/.config/awesome --recursive
 ```
 Then edit `rc.lua` to select wanted config.
 
