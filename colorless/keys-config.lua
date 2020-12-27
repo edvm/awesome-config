@@ -307,7 +307,7 @@ function hotkeys:init(args)
 			{ description = "View next screen", group = "Screen navigation" }
 		},
 		{
-			{ env.mod, "Control" }, "k", function () awful.screen.focus_relative(-1) end,
+			{ env.mod, "Control" }, "l", function () awful.screen.focus_relative(-1) end,
 			{ description = "View previous screen", group = "Screen navigation" }
 		},
 		{
