@@ -1,0 +1,2 @@
+# custom keybindings
+xbindkeys &
